@@ -1,0 +1,25 @@
+.h1-tag{
+    color:blue;
+}
+h1{
+
+    color:green;
+}
+.nav-bar{
+    border-color:black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: lime;
+    padding: 20px;
+}
+.nav-bar a{
+    color: red;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.nav-bar a:hover{
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+    font-size: 25px;
+}
