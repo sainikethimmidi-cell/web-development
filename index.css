@@ -22,4 +22,20 @@ h1{
     background-color: black;
     text-decoration: underline;
     font-size: 25px;
+}.card{
+    text-align: center;
+    border: 2px solid red;
+    margin-left : 100px;
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:30px;
+    overflow: hidden;
+}
+.card img{
+    width: 100px;
+}
+.card button{
+    width:70%;
+    padding:9px;
 }
