@@ -1,41 +1,46 @@
 .h1-tag{
-    color:blue;
-}
-h1{
-
-    color:green;
-}
-.nav-bar{
-    border-color:black;
+    color: blue;
+    font-style: oblique;
+}h1{
+    color: red;
+    text-align: center;
+}.nav-bar{
+    border-color: black;
     border-width: 2px;
     border-style: solid;
-    background-color: lime;
-    padding: 20px;
-}
-.nav-bar a{
-    color: red;
+    background-color: bisque;
+    padding: 30px;
+    text-align: center;
+}.nav-bar a{
+    color: black;
+    font-size: 20px;
+    padding: 15px;
     text-decoration: none;
-    margin-right: 15px;
-}
-.nav-bar a:hover{
+}.nav-bar a:hover{
     color: white;
-    background-color: black;
     text-decoration: underline;
+    background-color: black;
     font-size: 25px;
 }.card{
     text-align: center;
-    border: 2px solid red;
-    margin-left : 100px;
-    width:250px;
-    margin-left:auto;
-    margin-right:auto;
-    border-radius:30px;
+    border: 2px solid black;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 30px;
     overflow: hidden;
-}
-.card img{
-    width: 100px;
-}
-.card button{
-    width:70%;
-    padding:9px;
+    padding-bottom: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}.card img{
+    width: 250px;
+}.card button{
+    width: 70%;
+    padding: 8px;
+    border-radius: 30px;
+    background-color: bisque;
+}.card button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
